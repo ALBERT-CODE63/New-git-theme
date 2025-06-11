@@ -1,6 +1,5 @@
 # Personalized config for Albert Ray Mukiira’s portfolio site
 
-# Site settings
 title: "Albert Ray Mukiira"
 email: "albertray132@gmail.com"
 description: >-
@@ -9,11 +8,9 @@ description: >-
 minimal_mistakes_skin: "aqua"
 search: true
 
-# Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 
-# Output
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
@@ -22,7 +19,6 @@ timezone: Africa/Nairobi
 include:
   - _pages
 
-# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -31,12 +27,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# Author
 author:
   name   : "Albert Ray Mukiira"
   avatar : "/assets/images/Passport photo.jpg"
-  bio    : "Motivated IT specialist with a Diploma in ICT and certifications in cloud computing and cybersecurity. Experienced in technical support, software troubleshooting, and managing IT infrastructure. Skilled in Windows/Linux systems, user support, and deploying new technologies. Ready to bring strong technical skills and dedication to a dynamic IT team.
-"
+  bio    : "IT Support Professional with hands-on experience in SOC environments, focused on threat detection, cybersecurity reliability, and continuous learning."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -46,12 +40,11 @@ author:
       url: "https://github.com/ALBERT-CODE63"
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/ALBERT RAY CV..pdf"
+      url: "/assets/Albert_ Ray CV _CS-SA10-25083.pdf"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:albertray132@gmail.com"
 
-# Footer links
 footer:
   links:
     - label: "LinkedIn"
@@ -65,9 +58,16 @@ footer:
       url: "mailto:albertray132@gmail.com"
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/ALBERT RAY CV..pdf"
+      url: "/assets/Albert_ Ray CV _CS-SA10-25083.pdf"
 
-# Defaults
+navigation:
+  - title: "Projects"
+    url: /projects/
+  - title: "Lab Challenges"
+    url: /labs/
+  - title: "Contact"
+    url: /contact/
+
 defaults:
   - scope:
       path: ""
@@ -102,17 +102,8 @@ defaults:
       author_profile: true
       buttons:
         - label: "View My CV"
-          url: "/assets/ALBERT RAY CV..pdf"
+          url: "/assets/ALBERT%20RAY%20CV..pdf"
           class: "btn btn--primary"
         - label: "Visit GitHub"
           url: "https://github.com/ALBERT-CODE63"
           class: "btn btn--success"
-
-# Archive settings
-category_archive:
-  type: liquid
-  path: /categories/
-
-tag_archive:
-  type: liquid
-  path: /tags/
