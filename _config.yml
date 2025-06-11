@@ -46,7 +46,7 @@ author:
       url: "https://github.com/ALBERT-CODE63"
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/files/cv.pdf"
+      url: "/assets/ALBERT RAY CV..pdf"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:albertray132@gmail.com"
@@ -65,7 +65,7 @@ footer:
       url: "mailto:albertray132@gmail.com"
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/images/ALBERT RAY CV..pdf"
+      url: "/assets/ALBERT RAY CV..pdf"
 
 # Defaults
 defaults:
@@ -102,7 +102,7 @@ defaults:
       author_profile: true
       buttons:
         - label: "View My CV"
-          url: "/assets/images/ALBERT RAY CV..pdf"
+          url: "/assets/ALBERT RAY CV..pdf"
           class: "btn btn--primary"
         - label: "Visit GitHub"
           url: "https://github.com/ALBERT-CODE63"
