@@ -1,26 +1,26 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
+# Personalized config for Albert Ray Mukiira’s portfolio site
 
 # Site settings
-title: "ALBERT RAY MUKIIRA"
+title: "Albert Ray Mukiira"
 email: "albertray132@gmail.com"
 description: >-
   IT Support Professional | Comprehension of Fundamental Cybersecurity Concepts | Security Operations Center (SOC).
 
-minimal_mistakes_skin: default
+# Choose a more elegant theme skin
+minimal_mistakes_skin: "aqua"
 search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
 
-# Outputting
+# Output
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: # Optional, e.g. Africa/Nairobi
+timezone: Africa/Nairobi
 
 include:
   - _pages
@@ -34,11 +34,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# Author settings
+# Author profile
 author:
   name   : "Albert Ray Mukiira"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "IT Support Professional with a strong grasp of cybersecurity fundamentals and hands-on experience in Security Operations Center (SOC) environments. Focused on threat detection, system reliability, and continuous learning in the cybersecurity domain."
+  avatar : "/assets/images/avatar.jpg" # ✅ Make sure your image is named avatar.jpg and uploaded here
+  bio    : "IT Support Professional with hands-on experience in SOC environments, focused on threat detection, cybersecurity reliability, and continuous learning."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -46,6 +46,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ALBERT-CODE63"
+    - label: "Download CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/CV.pdf"
 
 # Footer links
 footer:
@@ -56,10 +59,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ALBERT-CODE63"
+    - label: "Download CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/CV.pdf"
 
-# Defaults
+# Default front matter settings
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -67,11 +72,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
+      related: false
 
-  # _pages
   - scope:
       path: "_pages"
       type: pages
@@ -79,7 +83,28 @@ defaults:
       layout: single
       author_profile: true
 
-# Archive pages
+  - scope:
+      path: ""
+      type: index
+    values:
+      layout: splash
+      header:
+        overlay_color: "#000"
+        overlay_filter: "0.3"
+        overlay_image: /assets/images/avatar.jpg
+        caption: "Welcome to my professional space."
+      title: "Albert Ray Mukiira"
+      excerpt: "IT Support Professional | Cybersecurity Enthusiast | SOC Operations"
+      author_profile: true
+      buttons:
+        - label: "View My CV"
+          url: "/assets/files/CV.pdf"
+          class: "btn btn--primary"
+        - label: "Visit GitHub"
+          url: "https://github.com/ALBERT-CODE63"
+          class: "btn btn--success"
+
+# Archive settings
 category_archive:
   type: liquid
   path: /categories/
@@ -87,3 +112,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
