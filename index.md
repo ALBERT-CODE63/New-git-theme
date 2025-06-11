@@ -22,7 +22,7 @@ feature_row:
 
 {% include feature_row %}
 <div style="text-align: center; margin-top: 2rem;">
-  <a href="/assets/files/CV.pdf" class="btn btn--primary">📄 View My CV</a>
+  <a href="/assets/CV.pdf" class="btn btn--primary">📄 View My CV</a>
   <a href="https://github.com/ALBERT-CODE63" class="btn btn--success">💻 Visit GitHub</a>
   <a href="https://www.linkedin.com/in/albert-ray-mukiira" class="btn btn--info">🔗 LinkedIn</a>
 </div>
