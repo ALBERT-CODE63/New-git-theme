@@ -37,7 +37,7 @@ plugins:
 # Author profile
 author:
   name   : "Albert Ray Mukiira"
-  avatar : "/assets/images/avatar.jpg" # ✅ Make sure your image is named avatar.jpg and uploaded here
+  avatar : "/assets/images/Passport photo.jpg" # ✅ Make sure your image is named Passport photo.jpg and uploaded here
   bio    : "IT Support Professional with hands-on experience in SOC environments, focused on threat detection, cybersecurity reliability, and continuous learning."
   links:
     - label: "LinkedIn"
@@ -91,7 +91,7 @@ defaults:
       header:
         overlay_color: "#000"
         overlay_filter: "0.3"
-        overlay_image: /assets/images/avatar.jpg
+        overlay_image: /assets/images/Passport photo.jpg
         caption: "Welcome to my professional space."
       title: "Albert Ray Mukiira"
       excerpt: "IT Support Professional | Cybersecurity Enthusiast | SOC Operations"
