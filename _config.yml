@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # Personalized config for Albert Ray Mukiira’s portfolio site
 
 # Site settings
@@ -8,7 +6,6 @@ email: "albertray132@gmail.com"
 description: >-
   IT Support Professional | Comprehension of Fundamental Cybersecurity Concepts | Security Operations Center (SOC).
 
-# Choose a more elegant theme skin
 minimal_mistakes_skin: "aqua"
 search: true
 
@@ -34,11 +31,12 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# Author profile
+# Author
 author:
   name   : "Albert Ray Mukiira"
-  avatar : "/assets/images/Passport photo.jpg" # ✅ Make sure your image is named Passport photo.jpg and uploaded here
-  bio    : "IT Support Professional with hands-on experience in SOC environments, focused on threat detection, cybersecurity reliability, and continuous learning."
+  avatar : "/assets/images/Passport photo.jpg"
+  bio    : "Motivated IT specialist with a Diploma in ICT and certifications in cloud computing and cybersecurity. Experienced in technical support, software troubleshooting, and managing IT infrastructure. Skilled in Windows/Linux systems, user support, and deploying new technologies. Ready to bring strong technical skills and dedication to a dynamic IT team.
+"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -48,7 +46,10 @@ author:
       url: "https://github.com/ALBERT-CODE63"
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/files/CV.pdf"
+      url: "/assets/files/cv.pdf"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:albertray132@gmail.com"
 
 # Footer links
 footer:
@@ -59,11 +60,14 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ALBERT-CODE63"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:albertray132@gmail.com"
     - label: "Download CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "/assets/files/ALBERT RAY CV..pdf"
+      url: "/assets/files/cv.pdf"
 
-# Default front matter settings
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -98,7 +102,7 @@ defaults:
       author_profile: true
       buttons:
         - label: "View My CV"
-          url: "/assets/files/ALBERT RAY CV..pdf"
+          url: "/assets/files/cv.pdf"
           class: "btn btn--primary"
         - label: "Visit GitHub"
           url: "https://github.com/ALBERT-CODE63"
@@ -112,4 +116,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
