@@ -5,13 +5,13 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/avatar.jpg
+  overlay_image: /assets/images/Passport photo.jpg
   caption: "Welcome to my professional space"
 excerpt: "IT Support Professional | Cybersecurity Enthusiast | SOC Operations"
 intro:
   - excerpt: "I'm passionate about system reliability, threat detection, and helping businesses secure their digital infrastructure."
 feature_row:
-  - image_path: /assets/images/avatar.jpg
+  - image_path: /assets/images/Passport photo.jpg
     alt: "Albert Ray Mukiira"
     title: "About Me"
     excerpt: "An IT Support Professional with growing expertise in cybersecurity and hands-on SOC experience. I thrive in fast-paced environments and am committed to continuous improvement."
